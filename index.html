@@ -8,7 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">Product Landing Page</header>
+    <header id="header">
+        <img src="" alt="Cecelia's Cakes" id="header-img">
+        <nav id="nav-bar">
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#cakes">Cakes</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </nav>
+    </header>
+
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">Subscribe for specials and recipes!</label>
+        <input type="email" name="email" id="email" placeholder="janedoe@email.com" required>
+        <input type="submit" value="SUBMIT" id="submit">
+    </form>
+
+    <section id="services">
+        <h1>Services</h1>
+        <p>Fresh cakes baked when ordered!</p>
+        <p>Fast delivery services!</p>
+        <p>Organic ingredients that makes it taste great!</p>
+    </section>
+
+    <section id="cakes">
+        <h1>Birthday Cakes</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RB50uu6a7e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+        <h1>Pricing</h1>
+        <div class="price">
+            <h1>Cake</h1>
+            <p>$9.99 per month</p>
+            <p>free shipping</p>
+            <p>subscribed to our monthly newsletter</p>
+        </div>
+        <div class="price">
+            <h1>Cake Connoisseur</h1>
+            <p>$19.99 per month</p>
+            <p>standard benefits</p>
+            <p>access to private community chat</p>
+        </div>
+    </section>
+
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
